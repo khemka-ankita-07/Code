@@ -39,14 +39,14 @@ void merge(int a[], int low, int high, int mid) {
 	}
 
 	while(i<l1) {
-			a[low+k]=arr1[i];
-			k++;
-			i++;
+		a[low+k]=arr1[i];
+		k++;
+		i++;
 	}
 	while(j<l2) {
-			a[low+k]=arr2[j];
-			k++;
-			j++;
+		a[low+k]=arr2[j];
+		k++;
+		j++;
 	}
 }
 

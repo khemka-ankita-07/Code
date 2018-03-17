@@ -9,7 +9,7 @@ void swap_data(int *a, int *b) {
 }
 
 void heapify(int a[], int n, int h) {
-	
+
 	int l, r,largest=h;
 	l = 2*h+1;
 	r = 2*h+2;

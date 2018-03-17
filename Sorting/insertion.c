@@ -15,9 +15,9 @@ void insertion_sort(int a[], int n) {
 		index=i;
 		value=a[i];
 		j=i-1;
-	   while (j>=0 && a[j]>value) {
-				a[j+1] = a[j]; j--;	
-			}
+		while (j>=0 && a[j]>value) {
+			a[j+1] = a[j]; j--;	
+		}
 		a[j+1] = value;
 		i++;
 	}
